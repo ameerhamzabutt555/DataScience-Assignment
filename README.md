@@ -1,4 +1,4 @@
-Project Details
+#Project Details
 
 ShowMenu: Displays the options for the user to interact with the program.
 GetInput: Simplifies the process of taking user input.
