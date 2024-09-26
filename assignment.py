@@ -66,10 +66,10 @@ def UpdateProductRating(products):
 # Initial data for products, represented as a dictionary of lists
 products = {
     "pid": ["p01", "p04", "p05", "p06", "p07", "p08", "p10", "p11", "p12"],  # List of product ids
-    "name": ["refrigerator", "dishwasher", "washing machine", "air purifier", "water dispenser", "iron", "hair dryer", "stove", "rack"],  # List of product names
+    "name": "name": ["Smart Fridge", "Electric Dishwasher", "Front Load Washing Machine", "HEPA Air Purifier", "Water Cooler", "Steam Iron", "Compact Hair Dryer", "Gas Stove", "Storage Rack"],  # List of product names
     "details": ["..."] * 9,  # Placeholder for product descriptions
-    "image": ["refrigerator.png", "dishwasher.png", "washingmachine.png", "airpurifier.png", "waterdispenser.png", "iron.png", "hairdryer.png", "stove.png", "rack.png"],  # List of product images
-    "rating": [4.5, 5.0, 3.0, 2.5, 3.3, 4.5, 5.0, 1.0, 2.7]  # List of product ratings
+    "image": ["smart_fridge.png", "electric_dishwasher.png", "front_load_washing_machine.png", "hepa_air_purifier.png", "water_cooler.png", "steam_iron.png", "compact_hair_dryer.png", "gas_stove.png", "storage_rack.png"],  # List of product images
+    "rating": [2.5, 3.0, 5.0, 2.5, 3.3, 4.4, 5.0, 1.0, 2.7]  # List of product ratings
 }
 
 # Main loop to continuously display the menu and perform actions based on user input
